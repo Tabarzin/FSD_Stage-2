@@ -1,7 +1,10 @@
 @import '../../assets/scss/variables.scss';
 @import '../../assets/scss/fonts.scss';
 
-
+body {
+width: 1440px;
+height: 900px;
+}
 
 img {
 position: absolute;
@@ -37,19 +40,28 @@ top: 30px;
   
 }
 
-.text {
-  margin-left: 40px;
-  margin-bottom: 34px;
-  justify-content: start;
+.text-bold {
+margin-left: 40px;
+justify-content: start;
 font-family: Montserrat;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 19px;
 line-height: 28px;
 display: flex;
 align-items: center;
+ 
+}
 
-  
+.text-color {
+    @extend .text-bold;
+font-family: Quicksand;
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 28px;
+display: flex;
+margin-bottom: 34px;
 }
 
 .color-boxes {

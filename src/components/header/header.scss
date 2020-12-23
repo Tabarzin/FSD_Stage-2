@@ -1,39 +1,55 @@
 @import '../../assets/scss/variables.scss';
 @import '../../assets/scss/fonts.scss';
 
+body {
+    width: 1440px;
+    height: 1350px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
 .logo {
-width: 48px;
-height: 48px;
-margin-left: 30px;
-margin-top: 30px;
+    position: absolute;
+    
+    width: 48px;
+    height: 48px;
+    left: 30px;
+    top: 30px;
 }
 
 .header {
-    position: relative;
-    width: 1440px;
+    width: 1440px;   
     height: 70px;
-    margin-top: 140px;
+    
     display: flex;
     align-items: center;
-    
 }
 
-.header-menu {
+
+.header-menu-logged-out {
     width: 447px;
     height: 21px;
+    margin-top: 62px;
     display: flex;
     align-items: center;
-    padding: 26px 0 23px 285px;
+    padding: 20px 0 23px 280px;
+}
+
+.header-menu-logged-out {
+     margin-left: 5px;
 }
 
 .logo-toxin {
-margin-left: 140px;
-margin-top: 15px;
-margin-bottom: 15px;
-
+    width: 105.69px;
+    height: 40px;
+    margin-left: 110px;
+    margin-top: 9px;
+    margin-bottom: 15px;
 }
 
-.about-us {
+
+.header-menu__about-us {
 width: 43px;
 height: 18px;
 padding: 0 0 3px 0;
@@ -43,13 +59,11 @@ font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 17px;
-
 color: rgba(31, 32, 65, 0.75);
-
 
 }
 
-.services {
+.header-menu__services {
 width: 50px;
 height: 18px;
 padding: 0 0 3px 20px;
@@ -68,7 +82,7 @@ color: $dark-shade-50;
 
 }
 
-.tick {
+.header-menu__tick {
 width: 24px;
 height: 21px;
 padding: 0 0 3px 0;
@@ -86,7 +100,7 @@ display: flex;
 color: $dark-shade-50;
 }
 
-.vacancies {
+.header-menu__vacancies {
 width: 72px;
 height: 18px;
 padding: 0 0 3px 20px;
@@ -101,7 +115,7 @@ line-height: 17px;
 color: $dark-shade-50;
 }
 
-.news {
+.header-menu__news {
 width: 62px;
 height: 18px;
 padding: 0 0 3px 20px;
@@ -117,7 +131,7 @@ line-height: 17px;
 color: $dark-shade-50;
 }
 
-.agreements {
+.header-menu__agreements {
 width: 92px;
 height: 18px;
 padding: 0 0 3px 20px;
@@ -134,9 +148,10 @@ color: $dark-shade-50;
 
 .button {
 width: 87px;
-height: 34px;
-padding: 18px 0 18px 0;
-margin-left: 20px;
+height: 20px;
+padding: 15px 0 16px 0;
+margin-left: 18px;
+margin-bottom: 5px;
 display: flex;
 border-radius: 22px;
 border: 2px solid rgba(188, 156, 255, 1);
@@ -148,7 +163,7 @@ align-items: center;
 .enter {
 width: 47px;
 height: 15px;
-padding: 9px 20px 10px 20px;
+padding: 8px 20px 13px 20px;
 display: flex;
 font-family: Montserrat;
 font-style: normal;
@@ -164,9 +179,10 @@ color:  #BC9CFF;
 
 .button-register {
 width: 196px;
-height: 34px;
-padding: 18px 140px 18px 0;
-margin-left: 20px;
+height: 20px;
+padding: 18px 140px 20px 0;
+margin-left: 22px;
+margin-bottom: 10px;
 display: flex;
 box-sizing: border-box;
 /* Primary Gradient */
@@ -181,10 +197,9 @@ align-items: center;
 
 width: 157px;
 height: 15px;
-padding: 9px 20px 10px 20px;
+padding: 20px 20px 25px 20px;
+margin-top: 5px;
 display: flex;
-
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
@@ -195,4 +210,16 @@ line-height: 15px;
 text-transform: uppercase;
 
 color: #FFFFFF;
+}
+
+
+.header_logged-in {
+    width: 588px;
+    height: 30px;
+    margin-top: 40px;
+}
+ 
+.header-menu_second {
+    margin-left: 466px;
+
 }

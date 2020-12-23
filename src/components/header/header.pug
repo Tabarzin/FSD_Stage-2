@@ -1,23 +1,38 @@
 html
  head
+  meta(name="viewport" content="width=600, initial-scale=1")
   style 
    include header.scss 
  body
   .logo
    img(src='../../assets/img/logo.svg')
-   .header
-    .logo-toxin
-     img(src='../../assets/img/logo_toxin.svg')
-    .header-menu    
-     .about-us О нас
-     .services Услуги
-     .tick expand_more
-     .vacancies Вакансии
-     .news Новости
-     .agreements Соглашения
-     .tick expand_more 
-    .button
-     .enter войти
-    .button-register
-     .register зарегистрироваться
+   .header_logged-out
+
+    .header
+     .logo-toxin
+      img(src='../../assets/img/logo_toxin.svg')
+     .header-menu-logged-out
+      .header-menu__about-us О нас
+      .header-menu__services Услуги
+      .header-menu__tick expand_more
+      .header-menu__vacancies Вакансии
+      .header-menu__news Новости
+      .header-menu__agreements Соглашения
+      .header-menu__tick expand_more 
+     .button
+      .enter войти
+     .button-register
+      .register зарегистрироваться
+   .header_logged-in
+    .header
+     .logo-toxin
+      img(src='../../assets/img/logo_toxin.svg')
+     .header-menu_second
+      .header-menu__about-us О нас
+      .header-menu__services Услуги
+      .header-menu__tick expand_more
+      .header-menu__vacancies Вакансии
+      .header-menu__news Новости
+      .header-menu__agreements Соглашения
+      .header-menu__tick expand_more  
    	   

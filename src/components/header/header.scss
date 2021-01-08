@@ -41,13 +41,13 @@ body {
      margin-left: 5px;
 }
 
+
+
 .logo-toxin {
     width: 105.69px;
     height: 40px;
-    margin-left: 110px;
-    margin-top: 9px;
-    margin-bottom: 15px;
-}
+    padding: 9px 0 15px 110px;
+ }
 
 
 .header-menu__about-us {
@@ -243,5 +243,137 @@ line-height: 17px;
 /* Dark 50% */
 
 color: $dark-shade-50;
+
+}
+
+.big-nav-bar {
+width: 1440px;
+height: 372px;
+margin-top: 40px;
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+display: flex;
+flex-direction: row;
+}
+
+.logo-block {
+    width: 260px;
+    height: 132px;
+    padding: 100px 0 100px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+.logo-block__logo-toxin {
+
+    width: 105.69px;
+    height: 40px;
+    padding: 9px 0 15px 0;
+}
+
+.logo-block__text {
+width: 260px;
+height: 72px;
+display: flex;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+/* Dark 75% */
+color: $dark-shade-75;
+}
+
+.nav-block {
+ width: 143px;
+ height: 168px;
+ padding: 100px 0 100px 40px;
+}
+
+.nav-block__block {
+
+width: 149px;
+height: 15px;
+padding: 0 0 0 40px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+/* Dark 100% */
+
+color: #1F2041;
+}
+
+.nav-block-navigation__item {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+padding: 20px 0 0 40px;
+width: 143px;
+/* Dark 50% */
+
+color: $dark-shade-50;
+}
+
+.about-us-block {
+width: 108px;
+height: 168px;
+padding: 100px 0 100px 57px;
+}
+
+.services-block {
+width: 149px;
+height: 130px;
+padding: 100px 0 100px 92px;
+}
+
+.subscription {
+
+width: 280px;
+height: 84px;
+padding: 100px 0 100px 51px;
+
+}
+
+.subscription__text {
+width: 260px;
+height: 48px;    
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+/* Dark 75% */
+
+color:  $dark-shade-75;
+padding: 21px 0 0 40px;
+
+}
+
+.subscr-box {
+
+width: 260px;
+height: 44px;
+padding: 20px 0 0 40px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+
 
 }

@@ -1,4 +1,7 @@
 @import '../../components/colors_type/colors-type.scss';
 @import '../../components/header/header.scss';
 
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
 

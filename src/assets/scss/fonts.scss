@@ -54,3 +54,18 @@
        url('../fonts/iconfont/MaterialIcons-Regular.svg') format('svg'); /* Legacy iOS */
     
 }
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('../fonts/5brands/fa-brands-400.eot');
+  src: local(''),
+  url('../fonts/5brands/fa-brands-400.eot') format('embedded-opentype'),
+  url('../fonts/5brands/fa-brands-400.woff2') format('woff2'),
+  url('../fonts/5brands/fa-brands-400.woff') format('woff'),
+  url('../fonts/5brands/fa-brands-400.ttf') format('truetype'),
+  url('../fonts/5brands/fa-brands-400.svg') format('svg');
+}
+

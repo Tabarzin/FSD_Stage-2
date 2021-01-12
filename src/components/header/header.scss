@@ -1,6 +1,8 @@
 @import '../../assets/scss/variables.scss';
 @import '../../assets/scss/fonts.scss';
 
+
+
 body {
     width: 1440px;
     height: 1350px;
@@ -331,12 +333,14 @@ color: $dark-shade-50;
 width: 108px;
 height: 168px;
 padding: 100px 0 100px 57px;
+
 }
 
 .services-block {
 width: 149px;
 height: 130px;
 padding: 100px 0 100px 92px;
+
 }
 
 .subscription {
@@ -344,7 +348,6 @@ padding: 100px 0 100px 92px;
 width: 280px;
 height: 84px;
 padding: 100px 0 100px 51px;
-
 }
 
 .subscription__text {
@@ -366,14 +369,111 @@ padding: 21px 0 0 40px;
 }
 
 .subscr-box {
-
 width: 260px;
 height: 44px;
-padding: 20px 0 0 40px;
+margin: 20px 0 0 40px;
 background: #FFFFFF;
 border: 1px solid rgba(31, 32, 65, 0.25);
 box-sizing: border-box;
 border-radius: 4px;
+display: flex;
+flex-direction: row;
+}
 
+.text-email {
+width: 40px;
+height: 24px;
+padding: 10px 0 10px 15px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+display: flex;
+align-items: center;
+/* identical to box height, or 171% */
+
+
+/* Dark 25% */
+
+color:  $dark-shade-25;
 
 }
+
+.arrow {
+width: 44px;
+height: 44px;
+padding-left: 161px;
+
+font-family: Material Icons;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Primary Gradient */
+color: #BC9CFF;
+
+}
+a {
+    text-decoration: none;
+    color: #BC9CFF;
+   }
+a:hover {
+   border-bottom: 2px solid #8BA4F9; 
+}
+
+.copyright-block {
+width: 1440px;
+height: 70px;
+background: #FFFFFF;
+box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.copyright-block__text {
+/* Copyright © 2018 Toxin отель. Все права зачищены. */
+
+width: 367px;
+height: 18px;
+padding: 26px 0 26px 125px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+/* Dark 75% */
+
+color: $dark-shade-75;
+}
+
+.social {
+
+width: 24px;
+height: 24px;
+padding: 23px 0 23px 681px;
+font-family: "Font Awesome 5 Brands";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 23px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+}
+.social a {
+padding-left: 20px;
+}
+
+
+
+

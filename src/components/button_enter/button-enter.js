@@ -1,0 +1,1 @@
+import './button-register.scss';

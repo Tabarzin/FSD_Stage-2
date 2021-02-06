@@ -1,0 +1,26 @@
+.button-register {
+width: 196px;
+height: 34px;
+display: flex;
+align-items: center;
+justify-content: center;
+/* Primary Gradient */
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+border-radius: 22px;
+}
+
+.register {
+width: 157px;
+height: 15px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+
+/* identical to box height */
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+

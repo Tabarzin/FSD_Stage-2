@@ -1,5 +1,12 @@
 @import '../../components/colors_type/colors-type.scss';
-@import '../../components/header/header.scss';
+//@import '../../components/header/header.scss';
+//@import '../../components/layout/layout.scss';
+@import '../../components/logo/logo.scss';
+@import '../../components/logo_toxin/logo-toxin.scss';
+@import '../../components/button_enter/button-enter.scss';
+@import '../../components/button_register/button-register.scss';
+@import '../../components/navbar/navbar.scss';
+@import '../../components/header_menu/header-menu.scss';
 
 $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 @import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';

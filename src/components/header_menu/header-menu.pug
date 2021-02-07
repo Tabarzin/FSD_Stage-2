@@ -1,14 +1,17 @@
-include ../logo_toxin/logo-toxin
-include ../button_enter/button-enter
-include ../button_register/button-register
-include ../navbar/navbar
+mixin header-menu_navbar
+ include ../logo_toxin/logo-toxin
+ include ../button_enter/button-enter
+ include ../button_register/button-register
+ include ../navbar/navbar
 
-.header-menu_navbar
- +logo-toxin
- .navbar_inmenu
-  +navbar
- .button-enter_inmenu
-  +button-enter
- .button-register_inmenu
-  +button-register
+ .header-menu_navbar
+  +logo-toxin
+  .navbar_inmenu
+   +navbar
+  .button-enter_inmenu
+   +button-enter
+  .button-register_inmenu
+   +button-register
 
+
++header-menu_navbar

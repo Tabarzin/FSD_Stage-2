@@ -1,7 +1,13 @@
+@import '../../assets/scss/variables.scss';
+
 .logo {
 position: absolute;
 width: 48px;
 height: 48px;
 left: 30px;
 top: 30px;
+}
+
+img {
+color: $dark-shade-25;
 }

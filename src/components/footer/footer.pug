@@ -1,5 +1,6 @@
 mixin footer 
  include ../logo_toxin/logo-toxin
+ include ../copyright_social/copyright-social
 
  .footer-nav-bar
   .logo-block  	
@@ -16,14 +17,17 @@ mixin footer
    li Наша команда
    li Вакансии
    li Инвесторы
-  .nav-block служба поддержки
-   li Соглашения
-   li Сообщества
-   li Связь с нами
+  .services_padding
+   .nav-block служба поддержки
+    li Соглашения
+    li Сообщества
+    li Связь с нами
   .nav-block подписка
    .subscription__text Получайте специальные предложения и новости сервиса	
     .subscr-box
      .text-email Email
      .arrow  
       a(href='#') arrow_forward
-+footer
+ .copyright-social_inpage
+  +copyright-social
+

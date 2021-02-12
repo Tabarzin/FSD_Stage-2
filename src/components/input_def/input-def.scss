@@ -1,0 +1,27 @@
+.input {
+    display: flex;
+   
+}
+ 
+
+
+.input_bold {
+    @include montserrat_bold;
+ }
+
+.input_norm {
+    @include montserrat_norm;
+    padding-left: 190px;
+}
+
+input {
+    margin-top: 5px;
+width: 320px;
+height: 44px;
+@include input-border;
+}
+::placeholder {
+    @include  monsterrat-placeholder;
+    
+    padding-left: 15px;
+    }

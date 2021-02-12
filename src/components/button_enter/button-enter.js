@@ -1,1 +1,1 @@
-import './button-register.scss';
+import './button-enter.scss';

@@ -1,0 +1,51 @@
+@import 'variables.scss';
+
+@mixin montserrat_bold {
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+/* Dark 100% */
+color: $dark-shade-100;
+}
+
+@mixin montserrat_norm {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+text-align: right;
+text-transform: uppercase;
+
+/* Dark 50% */
+
+color: $dark-shade-50;
+
+}
+
+@mixin monsterrat-placeholder {
+width: 40px;
+height: 18px;
+left: 156px;
+top: 176px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color:  $dark-shade-25;
+}
+
+@mixin input-border {
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+
+}

@@ -1,7 +1,7 @@
 import './assets/scss/main.scss';
+
+
 //import './components/colors_type/colors-type.scss';
-
-
 
 
 function requireAll(requireContext) {
@@ -13,5 +13,6 @@ requireAll(require.context('./pages', true, /\.(scss|js)$/));
 
 /*function requireAll(requireContext) {
   return requireContext.keys().map(requireContext);
-}*/
+  }*/
+
 
